@@ -4,7 +4,7 @@ import DeliveryInput from "./components/DeliveryInput";
 import PathInput from "./components/PathInput";
 import ResultBox from "./components/ResultBox";
 import "./App.css";
-
+import DeliveryTester from "./DeliveryTester.jsx";
 export default function App() {
     const [deliveries, setDeliveries] = useState("[[1,2],[3,4]]");
     const [path, setPath] = useState("[1,2,3,4]");
@@ -24,6 +24,8 @@ export default function App() {
     };
 
     return (
+        <>
+        <DeliveryTester />
         <div className="container">
             <h1 className="title">Delivery Checker</h1>
             <DeliveryInput value={deliveries} onChange={setDeliveries} />
@@ -33,5 +35,6 @@ export default function App() {
             </button>
             <ResultBox result={result} error={error} />
         </div>
+        </>
     );
 }

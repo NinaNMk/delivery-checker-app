@@ -41,6 +41,12 @@ Success: The path is valid.
 
 ---
 
+## Project Structure
+
+This project includes both:
+
+Algorithmic logic — The core delivery path checking algorithm, implemented in a separate module (checkDeliveryPath.js), designed to be testable independently.
+UI Interface — A React-based user interface that allows you to input delivery data and paths, run the algorithm directly in the browser, and view results interactively.
 
 ## Built With
 
