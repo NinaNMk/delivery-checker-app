@@ -41,10 +41,12 @@ Success: The path is valid.
 
 ---
 
-## 🛠 Tech Stack
 
-- **React** (with functional components and hooks)
-- **CSS** (responsive layout, pastel color theme, and modern UI)
+## Built With
+
+- **React 18+** 
+- **Vite** 
+- **CSS** 
 
 ---
 
