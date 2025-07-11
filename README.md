@@ -44,9 +44,9 @@ Success: The path is valid.
 
 ## Built With
 
-- **React 18+** 
+- **React v19** 
 - **Vite** 
-- **CSS** 
+- **CSS3** 
 
 ---
 
